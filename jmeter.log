@@ -1,0 +1,83 @@
+2023-12-19 22:07:24,912 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-12-19 22:07:24,930 INFO o.a.j.JMeter: Loading user properties from: /home/daniel/jmeter/apache-jmeter-5.6.2/bin/user.properties
+2023-12-19 22:07:24,931 INFO o.a.j.JMeter: Loading system properties from: /home/daniel/jmeter/apache-jmeter-5.6.2/bin/system.properties
+2023-12-19 22:07:24,935 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: Version 5.6.2
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: java.version=19.0.2
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: os.name=Linux
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: os.arch=amd64
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: os.version=6.2.0-39-generic
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: java.awt.headless=true
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-12-19 22:07:24,936 INFO o.a.j.JMeter: Available Processors =12
+2023-12-19 22:07:24,944 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-12-19 22:07:24,944 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-12-19 22:07:24,944 INFO o.a.j.JMeter: JMeterHome=/home/daniel/jmeter/apache-jmeter-5.6.2
+2023-12-19 22:07:24,944 INFO o.a.j.JMeter: user.dir  =/home/daniel/projects/performance_testing
+2023-12-19 22:07:24,944 INFO o.a.j.JMeter: PWD       =/home/daniel/projects/performance_testing
+2023-12-19 22:07:24,945 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: nitro FullName: nitro
+2023-12-19 22:07:24,966 INFO o.a.j.s.FileServer: Default base='/home/daniel/projects/performance_testing'
+2023-12-19 22:07:24,968 INFO o.a.j.s.FileServer: Set new base='/home/daniel/projects/performance_testing/.'
+2023-12-19 22:07:25,131 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-12-19 22:07:25,151 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-12-19 22:07:25,154 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-12-19 22:07:25,157 INFO o.a.j.s.SaveService: Loading file: ./simple_http_request.jmx
+2023-12-19 22:07:25,201 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 22:07:25,201 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 22:07:25,201 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 22:07:25,201 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 22:07:25,201 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-12-19 22:07:25,201 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-12-19 22:07:25,219 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-12-19 22:07:25,232 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-12-19 22:07:25,233 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-12-19 22:07:25,233 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-12-19 22:07:25,241 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-12-19 22:07:25,241 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-12-19 22:07:25,325 INFO o.a.j.JMeter: Running test (1703034445325)
+2023-12-19 22:07:25,343 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-12-19 22:07:25,343 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-12-19 22:07:25,343 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-12-19 22:07:25,344 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=2 delayedStart=false
+2023-12-19 22:07:25,351 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-12-19 22:07:25,351 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-12-19 22:07:25,351 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-12-19 22:07:25,377 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = nitro
+2023-12-19 22:07:25,388 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-12-19 22:07:25,390 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-12-19 22:07:25,391 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-12-19 22:07:25,391 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-12-19 22:07:25,391 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-12-19 22:07:25,502 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-12-19 22:07:25,502 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-12-19 22:07:25,548 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-12-19 22:07:25,574 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-12-19 22:07:25,574 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-12-19 22:07:25,747 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-12-19 22:07:25,778 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-12-19 22:07:25,778 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-12-19 22:07:25,947 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-12-19 22:07:25,973 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-12-19 22:07:25,973 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-12-19 22:07:26,147 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-12-19 22:07:26,176 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-12-19 22:07:26,176 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-12-19 22:07:26,346 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2023-12-19 22:07:26,376 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2023-12-19 22:07:26,376 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2023-12-19 22:07:26,545 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2023-12-19 22:07:26,573 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2023-12-19 22:07:26,573 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2023-12-19 22:07:26,745 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2023-12-19 22:07:26,772 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2023-12-19 22:07:26,772 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2023-12-19 22:07:26,945 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2023-12-19 22:07:26,974 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2023-12-19 22:07:26,974 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2023-12-19 22:07:27,145 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2023-12-19 22:07:27,169 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2023-12-19 22:07:27,169 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2023-12-19 22:07:27,170 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-12-19 22:07:27,182 INFO o.a.j.r.Summariser: summary =    100 in 00:00:02 =   54.2/s Avg:     2 Min:     1 Max:    31 Err:     0 (0.00%)

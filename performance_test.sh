@@ -1,0 +1,1 @@
+jmeter -n -t ./simple_http_request.jmx -l ./test_output.csv

@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  api:
+    image: "performance-api"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: bash -c "gunicorn main:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker"
+    ports:
+      - "8000:8000"
